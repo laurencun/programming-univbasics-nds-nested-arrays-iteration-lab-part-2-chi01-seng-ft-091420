@@ -17,4 +17,4 @@ min_in_arrays = []
 end
 end
 
-find_min_in_nested_arrays(min_in_arrays)
+find_min_in_nested_arrays(src)
