@@ -12,7 +12,7 @@ min_in_arrays = []
       end
     element_index += 1 
     end
-  min_in_arrays << src[row_index][element_index]
+  min_in_arrays << min
   row_index += 1 
 end
 min_in_arrays
