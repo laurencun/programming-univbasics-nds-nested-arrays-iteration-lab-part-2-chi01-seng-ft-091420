@@ -15,3 +15,6 @@ min_in_arrays = []
   min_in_arrays << src[row_index][element_index]
   row_index += 1 
 end
+end
+
+min_in_arrays
