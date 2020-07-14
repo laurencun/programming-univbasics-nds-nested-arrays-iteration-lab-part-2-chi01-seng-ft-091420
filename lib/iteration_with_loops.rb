@@ -5,13 +5,14 @@ min_in_arrays = []
   row_index = 0 
   while row_index < src.count do
     element_index = 0 
-    min = 
+    min = 100
     while element_index < src[row_index].count do
-      if src[row_index][element_index].size < min
-        min_in_arrays << src[row_index][element_index]
-      end 
+      if src[row_index][element_index] < min
+        min = src[row_index][element_index]
+      end
       element_index += 1 
-    end
+      end
+    min_in_arrays << src[row_index][element_index]
     row_index += 1 
 end
 
